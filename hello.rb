@@ -1,4 +1,4 @@
-# Author: [Your Name]
+# Name : Namanjeet Singh
 
 # Constants for tax rates
 GST_RATE = 0.05
@@ -6,7 +6,7 @@ PST_RATE = 0.07
 
 # Ask user for subtotal
 puts "Enter the subtotal: $"
-sub_total = gets.chomp.to_f
+sub_total = gets.to_f
 
 # Calculate taxes
 gst = sub_total * GST_RATE
